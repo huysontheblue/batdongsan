@@ -1,16 +1,4 @@
-# Laravel 9 - Real Estate Application
 
-![preview img](/preview.png)
-
-## Run Locally
-
-Clone the project
-
-```bash
-  git clone https://github.com/abdulaziz-m5u/laravel-real-estate.git project-name
-```
-
-Go to the project directory
 
 ```bash
   cd project-name
