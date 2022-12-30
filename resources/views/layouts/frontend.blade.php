@@ -11,10 +11,10 @@
   <body>
     <header class="bg-white border-bottom">
       <nav class="navbar navbar-expand-lg">
-        <div class="container bg-white" style="z-index: 9">
-          <div class="nav-logo d-flex align-items-center flex-column">
-            <i class="uil uil-estate text-primary" style="font-size: 2rem"></i>
-            <a class="navbar-brand me-0" href="{{ route('homepage') }}" style="margin-top: -0.9rem">
+        <div class="container bg-white" style="z-index: 9; color: #b5b5b5"">
+          <div class="nav-logo align-items-center flex-column">
+            <i class="uil uil-estate text-primary" style="font-size: 3rem; color: #b5b5b5 !important;"></i>
+            <a class="navbar-brand me-0 d-none d-xl-inline" href="{{ route('homepage') }}" style="font-size: 2.1rem ;color: #b5b5b5">
               Bất động sản
             </a>
           </div>
@@ -48,7 +48,7 @@
               <a href="{{ route('register') }}" class="btn d-inline-flex justify-content-center align-items-center btn-primary mb-4 mb-md-0">
                 Đăng ký 
               </a>
-              <a href="{{ route('login') }}" class="btn d-inline-flex justify-content-center align-items-center btn-success mb-4 mb-md-0" style="margin-left: -20px">
+              <a href="{{ route('login') }}" class="btn d-inline-flex justify-content-center align-items-center btn-success mb-4 mb-md-0" style="ml-xl-1">
                 Đăng nhập
               </a>
             </ul>
@@ -64,8 +64,8 @@
         <div class="row">
           <div class="col-lg-6">
             <div class="nav-logo text-center d-flex align-items-center" style="width: 110px">
-              <i class="uil uil-estate text-primary mb-2 d-block" style="font-size: 2rem"></i>
-              <a class="navbar-brand me-0 d-block " href="{{ route('homepage') }}"style="margin-left: 5px; font-size: 1.5rem;">Bất động sản</a>
+              <i class="uil uil-estate text-primary mb-2 d-block" style="font-size: 3rem; color: #b5b5b5 !important;"></i>
+              <a class="navbar-brand me-0 d-block " href="{{ route('homepage') }}" style="font-size: 2.1rem ;color: #b5b5b5">Bất động sản</a>
             </div>
             <p class="mt-2" style="width: 70%">
               Sự hài lòng của khách hàng chính là thành công lớn nhất của chúng tôi
