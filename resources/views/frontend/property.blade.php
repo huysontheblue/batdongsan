@@ -2,18 +2,18 @@
 
 @section('content')
 <main>
-  <section class="hero-property mb-5" style=" background-image: url('{{ asset('frontend/assets/images/bg-alt.jpg') }}'); height: 50vh;">
+  <section class="hero-property mb-5" style=" background-image: url('{{ asset('frontend/assets/images/bg1.jpg') }}'); height: 50vh;">
     <div class="container">
       <div class="row text-center" style="padding-top: 120px">
-        <h3 class="text-white">Các bài đăng</h3>
+        <h3 class="text-white pt-5">Các bài đăng</h3>
       </div>
     </div>
   </section>
 
   <section class="container category" style="margin-bottom: 100px">
-    <h3 class="text-center">Chọn ngôi nhà mà bạn thích</h3>
+    <!-- <h3 class="text-center">Chọn ngôi nhà mà bạn thích</h3>
     <p class="text-center">biến ngôi nhà mơ ước của bạn thành hiện thực</p>
-    <hr />
+    <hr /> -->
     <div class="row mt-5">
         @foreach($properties as $property)
           <div class="col-lg-4 mb-4">

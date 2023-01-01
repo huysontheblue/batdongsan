@@ -60,7 +60,7 @@
                             </tr>
                             @empty
                             <tr>
-                                <td colspan="7" class="text-center">{{ __('Data Empty') }}</td>
+                                <td colspan="7" class="text-center">{{ __('không có dữ liệu') }}</td>
                             </tr>
                             @endforelse
                         </tbody>

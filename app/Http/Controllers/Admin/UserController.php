@@ -89,7 +89,7 @@ class UserController extends Controller
             'message' => 'Cập nhật thành công !',
             'alert-type' => 'info'
         ]);
-    }
+    } 
 
     /**
      * Remove the specified resource from storage.

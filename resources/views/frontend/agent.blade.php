@@ -5,7 +5,7 @@
   <section class="hero-property mb-5" style=" background-image: url('{{ asset('frontend/assets/images/bg-alt.jpg') }}'); height: 50vh;">
     <div class="container">
       <div class="row text-center" style="padding-top: 120px">
-        <h3 class="text-white">Các nhà đầu tư</h3>
+        <h3 class="text-white pt-5">Các nhà đầu tư</h3>
       </div>
     </div>
   </section>

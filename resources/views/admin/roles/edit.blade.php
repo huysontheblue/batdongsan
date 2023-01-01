@@ -2,9 +2,7 @@
 
 @section('content')
 <div class="container-fluid">
-
     <!-- Page Heading -->
-
     @if($errors->any())
         <div class="alert alert-danger">
             <ul>
@@ -33,7 +31,7 @@
                     </div>
                     <div class="form-group">
                         <label for="permissions">{{ __('Quyền có thể') }}</label>
-                        <select name="permissions[]" id="permissions" class="form-control select2" multiple="multiple" required>
+                        <select name="permissions[]" id="permissions" class="form-control select2" multiple="multiple" required style="height: 50vh">
                             @foreach($permissions as $id => $permissions)
                                 <option value="{{ $id }}" {{ (in_array($id, old('permissions', [])) || isset($role) && $role->permissions->contains($id)) ? 'selected' : '' }}>{{ $permissions }}</option>
                             @endforeach
@@ -43,9 +41,6 @@
                 </form>
             </div>
         </div>
-    
-
     <!-- Content Row -->
-
 </div>
 @endsection

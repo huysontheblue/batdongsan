@@ -207,9 +207,5 @@
                 </form>
             </div>
         </div>
-    
-
-    <!-- Content Row -->
-
 </div>
 @endsection

@@ -1,8 +1,6 @@
 @extends('layouts.admin')
-
 @section('content')
 <div class="container-fluid">
-
     <!-- Content Row -->
         <div class="card">
             <div class="card-header py-3 d-flex">
@@ -65,7 +63,6 @@
             </div>
         </div>
     <!-- Content Row -->
-
 </div>
 @endsection
 
@@ -73,14 +70,13 @@
 @push('script-alt')
 <script>
     $(function () {
-  let dtButtons = $.extend(true, [], $.fn.dataTable.defaults.buttons)
-  $.extend(true, $.fn.dataTable.defaults, {
-    pageLength: 50,
-  });
-  $('.datatable-property:not(.ajaxTable)').DataTable({ buttons: dtButtons })
+        let dtButtons = $.extend(true, [], $.fn.dataTable.defaults.buttons)
+        $.extend(true, $.fn.dataTable.defaults, {
+        pageLength: 50,
+    });
+    $('.datatable-property:not(.ajaxTable)').DataTable({ buttons: dtButtons })
     $('a[data-toggle="tab"]').on('shown.bs.tab', function(e){
-        $($.fn.dataTable.tables(true)).DataTable()
-            .columns.adjust();
+        $($.fn.dataTable.tables(true)).DataTable().columns.adjust();
     });
 })
 </script>
