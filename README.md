@@ -24,8 +24,3 @@ Go to the project directory
 ```bash
     php artisan storage:link
 ```
-
-#### Login
-
--   email = admin@example.com
--   password = 123
